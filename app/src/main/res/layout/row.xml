@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <ImageView
+        android:id="@+id/imgIcon"
+        android:contentDescription="desc"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ic_launcher"
+        />
+
+    <TextView
+        android:id="@+id/dateTime"
+        android:layout_toRightOf="@+id/imgIcon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=""
+        />
+
+    <TextView
+        android:id="@+id/forecast"
+        android:layout_toRightOf="@+id/imgIcon"
+        android:layout_below="@+id/dateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+    <TextView
+        android:id="@+id/temperature"
+        android:layout_toRightOf="@+id/imgIcon"
+        android:layout_below="@+id/forecast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+
+    <TextView
+        android:id="@+id/wind"
+        android:layout_toRightOf="@+id/imgIcon"
+        android:layout_below="@+id/temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+
+    <TextView
+        android:id="@+id/rain"
+        android:layout_toRightOf="@+id/imgIcon"
+        android:layout_below="@+id/wind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+
+
+</RelativeLayout>
